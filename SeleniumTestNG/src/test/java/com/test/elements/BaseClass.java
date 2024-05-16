@@ -26,7 +26,7 @@ public class BaseClass {
 	@AfterMethod(groups="smoke")
 	public void tearDown() {
 		try {
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 		driver.close();
 		driver.quit();
 		

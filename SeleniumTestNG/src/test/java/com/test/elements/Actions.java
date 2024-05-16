@@ -14,7 +14,7 @@ public class Actions extends BaseClass{
 	
 	public static void scrollDown(WebDriver driver) {
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
-		 js.executeScript("window.scrollBy(0,100);");
+	        js.executeScript("window.scrollBy(0, 300);");
 	}
 
 }
